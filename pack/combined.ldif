@@ -1,0 +1,64 @@
+dn: cn=groups,dc=example,dc=com
+objectclass: posixGroup
+cn: groups
+gidNumber: 100
+
+dn: cn=users,dc=example,dc=com
+objectclass: posixGroup
+cn: users
+gidNumber: 200
+
+dn: uid=one, cn=users, dc=example, dc=com
+objectClass: device
+objectClass: posixAccount
+objectClass: top
+cn: users
+description: Created via ldapadd
+gidNumber: 200
+uid: one
+uidNumber: 503
+homeDirectory: /home/testUser
+
+dn: uid=two, cn=users, dc=example, dc=com
+objectClass: device
+objectClass: posixAccount
+objectClass: top
+cn: users
+description: Created via ldapadd
+gidNumber: 200
+uid: william
+uidNumber: 504
+homeDirectory: /home/testUser2
+
+dn: uid=three, cn=users, dc=example, dc=com
+objectClass: device
+objectClass: posixAccount
+objectClass: top
+cn: users
+description: Created via ldapadd
+gidNumber: 200
+uid: william
+uidNumber: 505
+homeDirectory: /home/testUser3
+
+dn: uid=four, cn=users, dc=example, dc=com
+objectClass: device
+objectClass: posixAccount
+objectClass: top
+cn: users
+description: Created via ldapadd
+gidNumber: 200
+uid: william
+uidNumber: 506
+homeDirectory: /home/testUser4
+
+dn: uid=five, cn=users, dc=example, dc=com
+objectClass: device
+objectClass: posixAccount
+objectClass: top
+cn: users
+description: Created via ldapadd
+gidNumber: 200
+uid: william
+uidNumber: 507
+homeDirectory: /home/testUser5

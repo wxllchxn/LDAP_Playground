@@ -1,4 +1,4 @@
-dn: cn=ldapjs, ou=users, o=myhost
+dn: cn=test1, dn=example, dc=com
 changetype: modify
 replace: userPassword
 userPassword: secret

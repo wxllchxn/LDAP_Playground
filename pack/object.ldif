@@ -1,0 +1,4 @@
+dn: cn=groups,dc=example,dc=com
+objectclass: posixGroup
+cn: groups
+gidNumber: 100

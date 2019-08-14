@@ -1,0 +1,10 @@
+dn: uid=testUser, dc=example, dc=com
+objectClass: device
+objectClass: posixAccount
+objectClass: top
+cn: users
+description: Created via ldapadd
+gidNumber: 100
+uid: testUser
+uidNumber: 501
+homeDirectory: /home/testUser
